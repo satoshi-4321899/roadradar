@@ -50,7 +50,7 @@
                     注文履歴
                 </a>
                 @endif
-                @if(Auth::guard('web')->check())
+                @if(Auth::guard('admin')->check())
                 <a href="{{ route('admin.brand.mybrand') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
                     MYブランド一覧
                 </a>
@@ -59,6 +59,17 @@
                 </a>
                 <a href="{{ route('admin.brand.create') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
                     ブランド登録
+                </a>
+                @endif
+                @if (Auth::guest())
+                <a href="{{ route('register') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    会員登録
+                </a>
+                <a href="{{ route('login') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    ログイン
+                </a>
+                <a href="{{ route('contact.create') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    お問い合わせ
                 </a>
                 @endif
             </div>
