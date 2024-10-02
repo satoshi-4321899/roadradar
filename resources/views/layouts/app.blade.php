@@ -39,6 +39,7 @@
                 </a>
             </div>
             <div class="flex items-center">
+                @if(Auth::guard('web')->check())
                 <a href="{{ route('favorite.index') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
                     お気に入り一覧
                 </a>
@@ -48,6 +49,18 @@
                 <a href="{{ route('order.index') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
                     注文履歴
                 </a>
+                @endif
+                @if(Auth::guard('web')->check())
+                <a href="{{ route('admin.brand.mybrand') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    MYブランド一覧
+                </a>
+                <a href="{{ route('admin.brand.index') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    ブランド一覧
+                </a>
+                <a href="{{ route('admin.brand.create') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
+                    ブランド登録
+                </a>
+                @endif
             </div>
         </footer>
     </body>
