@@ -17,7 +17,7 @@
     @endif
 
     <div class="py-12 max-sm:py-6 sm:px-8">
-        <div class="max-w-7xl">
+        <div class="w-full">
             @if(count($brands) == 0)
             <p class="mt-4 text-xl font-semibold max-sm:text-lg">
                 あなたはまだブランドを登録していません。
