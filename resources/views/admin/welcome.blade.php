@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="flex items-center justify-center mb-10">
-            <x-admin-top/>
+            <img src="{{ asset('/storage/images/admin/top.jpg') }}" alt="Admin_Top">
         </div>
         <hr>
         <footer class="flex justify-between">
