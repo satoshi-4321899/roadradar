@@ -40,7 +40,8 @@ class ProductController extends Controller
         $validated['brand_id'] = $brand->id;
 
         if(request('image')){
-            $name = request()->file('image')->getClientOriginalName();        // 元のファイル名を取得
+            $original = request()->file('image')->getClientOriginalName();    // 元のファイル名を取得
+            $name = date('Ymd_His').'_'.$original;                            // 日付を結合
             request()->file('image')->move('storage/images/products',$name);  // $nameという名前でファイルを保存
             $validated['image'] = $name;                                      // $nameという名前でDBに保存
         }
@@ -79,7 +80,8 @@ class ProductController extends Controller
         $validated['brand_id'] = $product->brand->id;
 
         if(request('image')){
-            $name = request()->file('image')->getClientOriginalName();
+            $original = request()->file('image')->getClientOriginalName();
+            $name = date('Ymd_His').'_'.$original;
             request()->file('image')->move('storage/images/products',$name);
             $validated['image'] = $name;
         }

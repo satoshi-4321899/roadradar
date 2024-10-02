@@ -31,7 +31,8 @@ class BrandController extends Controller
         $validated['admin_id'] = auth()->id();
 
         if(request('image')){
-            $name = request()->file('image')->getClientOriginalName();        // 元のファイル名を取得
+            $original = request()->file('image')->getClientOriginalName();    // 元のファイル名を取得
+            $name = date('Ymd_His').'_'.$original;                            // 日付を結合
             request()->file('image')->move('storage/images/brands',$name);    // $nameという名前でファイルを保存
             $validated['image'] = $name;                                      // $nameという名前でDBに保存
         }
@@ -59,7 +60,8 @@ class BrandController extends Controller
         $validated['admin_id'] = auth()->id();
 
         if(request('image')){
-            $name = request()->file('image')->getClientOriginalName(); 
+            $original = request()->file('image')->getClientOriginalName();
+            $name = date('Ymd_His').'_'.$original;
             request()->file('image')->move('storage/images/brands',$name);    
             $validated['image'] = $name;                              
         }
