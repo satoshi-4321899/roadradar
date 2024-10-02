@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="flex items-center justify-center mb-10">
-            <img src="{{ asset('storage/images/user/top.jpg') }}" alt="Admin_Top">
+            <img src="{{ asset('storage/images/user/top.jpg') }}" alt="User_Top">
         </div>
         <div class="text-center">
             <h2 class="font-sans text-bold text-2xl max-sm:text-xl">新着商品</h1>
