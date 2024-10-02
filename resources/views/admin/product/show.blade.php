@@ -48,7 +48,7 @@
                         商品詳細：{{$product->info}}
                     </p>
                     <p class="text-gray-600 whitespace-pre-line max-sm:text-xs">
-                        価格：{{$product->price}}
+                        価格：¥{{$product->price}}
                     </p>
                     <p class="text-gray-600 whitespace-pre-line max-sm:text-xs">
                         在庫数：{{$product->stock}}
