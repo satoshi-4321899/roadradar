@@ -26,9 +26,9 @@
             {{ session('message') }}
         </div>
     @endif
-    <div class="max-w-7xl pb-4 ">
+    <div class="w-full pb-4 ">
         @foreach($products as $product)
-        <div class="mt-4 px-4 bg-white w-4/5 max-sm:w-full rounded-2xl mx-auto">
+        <div class="mt-4 px-4 bg-white w-3/5 max-sm:w-full rounded-2xl mx-auto">
             <h1 class="p-4 text-lg font-semibold flex">
                 <img src="/storage/images/products/{{ $product->image }}"  class="rounded-full w-12 h-12 object-cover">
                 <a href="{{ route('admin.product.show',$product) }}" class="rounded-md px-3 py-2 text-blue-600">
