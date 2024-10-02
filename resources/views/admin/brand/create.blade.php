@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <div class="max-w-7xl sm:px-6 lg:px-8">
+    <div class="w-full sm:px-6 lg:px-8">
         <form method="post" action="{{ route('admin.brand.post') }}" enctype="multipart/form-data" class="flex items-center justify-center">
             @csrf
             <div class="w-3/4">

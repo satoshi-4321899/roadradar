@@ -7,7 +7,7 @@
     @endif
 
     <div class="py-12 max-sm:py-6">
-        <div class="max-w-7xl">
+        <div class="w-full">
             @foreach($brands as $brand)
             <div class="p-8 mb-4 bg-white w-4/5 rounded-2xl max-sm:w-full mx-auto">
                 <!-- compact('brand')は['brand' => $brand]と同じ意味 -->
