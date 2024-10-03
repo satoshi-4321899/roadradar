@@ -8,7 +8,7 @@
             @foreach($searchProducts as $product)
                 <li class="w-64 flex-grow px-8 py-4 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                     <a href="{{ route('free.product.show',$product) }}" class="rounded-md text-black">
-                        <img src="/storage/images/products/{{$product->image}}" class="w-5/6 h-64 object-cover rounded-md">
+                        <img src="/storage/images/products/{{$product->image}}" class="w-full h-64 object-cover rounded-md">
                         <p class="rounded-md text-black">{{$product->name}}</p>
                         <p class="rounded-md text-gray-400 truncate">{{$product->info}}</p>
                     </a>
