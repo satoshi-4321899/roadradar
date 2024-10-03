@@ -52,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="w-5/6">
                 <h2 class="mt-8 font-semibold">関連する商品</h2>
                 <ul class="sm:flex">
                     @foreach ($relations as $relation)
