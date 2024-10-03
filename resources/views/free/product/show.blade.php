@@ -58,7 +58,7 @@
                     @foreach ($relations as $relation)
                         <li class="sm:w-1/3 rounded-2xl py-2 mb-3 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                             <a href="{{ route('free.product.show',$relation) }}" class="rounded-md text-black">
-                                <img src="/storage/images/products/{{$relation->image}}" class="px-1 w-full h-48 max-sm:h-40 object-cover rounded-md">
+                                <img src="/storage/images/products/{{$relation->image}}" class="px-1 w-full h-48 object-cover rounded-md">
                                 <p>{{$relation->name}}</p>
                                 <p class="text-gray-500 truncate">{{$relation->info}}</p>
                                 <p>¥{{$relation->price}}</p>
