@@ -19,10 +19,10 @@
         <div class="sm:px-20 mt-4">
             <div class="bg-white w-full rounded-2xl sm:px-10 sm:py-8 shadow-lg hover:shadow-2xl transition duration-500">
                 <div class="text-left sm:flex sm:justify-between">
-                    <div class="max-sm:m-3">
-                        <img src="/storage/images/products/{{ $product->image }}"  class="rounded-md sm:w-1/2 sm:h-80 max-sm:w-60 max-sm:h-52 object-cover max-sm:mx-auto">
+                    <div>
+                        <img src="/storage/images/products/{{ $product->image }}"  class="rounded-md sm:w-1/2 sm:h-80 max-sm:w-60 max-sm:h-52 object-cover max-sm:mx-auto max-sm:mt-3">
                     </div>
-                    <div class="flex flex-col p-3 max-sm:p-3">
+                    <div class="flex flex-col p-3">
                         <h2 class="sm:text-xl text-gray-700 font-semibold">
                             {{ $product->name }}
                         </h2>
