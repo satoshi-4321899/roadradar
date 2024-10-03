@@ -33,11 +33,27 @@
             </main>
         </div>
         <footer class="flex justify-between">
+            @if(Auth::guard('web')->check())
             <div class="m-10 shrink-0 flex items-center max-sm:m-5">
                 <a class="text-2xl font-bold max-sm:text-xl" href="{{ route('dashboard') }}">
                     RR
                 </a>
             </div>
+            @endif
+            @if(Auth::guard('admin')->check())
+            <div class="m-10 shrink-0 flex items-center max-sm:m-5">
+                <a class="text-2xl font-bold max-sm:text-xl" href="{{ route('admin.brand.mybrand') }}">
+                    RR
+                </a>
+            </div>
+            @endif
+            @if (Auth::guest())
+            <div class="m-10 shrink-0 flex items-center max-sm:m-5">
+                <a class="text-2xl font-bold max-sm:text-xl" href="{{ route('free.main') }}">
+                    RR
+                </a>
+            </div>
+            @endif
             <div class="flex items-center">
                 @if(Auth::guard('web')->check())
                 <a href="{{ route('favorite.index') }}" class="mr-10 max-sm:mr-5 max-sm:text-xs">
