@@ -75,7 +75,7 @@
                             <li class="max-sm:hidden md:col-span-3 md:row-span-2 md:w-128 max-md:w-40 pr-2 md:p-2 max-md:p-1 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                                 <a href="{{ route('user.product.show',$apparel) }}" class="text-black">
                                     <img src="/storage/images/products/{{$apparel->image}}" class="md:w-full md:h-4/5 max-md:w-40 max-md:h-30 object-cover rounded-md">
-                                    <p class="truncate max-sm:text-xs">{{$apparel->name}}</p>
+                                    <p class="truncate max-sm:text-xs mt-3">{{$apparel->name}}</p>
                                     <p class="text-gray-500 truncate max-sm:text-xs">{{$apparel->info}}</p>
                                     <p class="truncate max-sm:text-xs">¥{{$apparel->price}}</p>
                                 </a>
@@ -84,7 +84,7 @@
                             <li class="md:col-span-2 md:row-span-1 md:w-60 max-md:w-40 p-2 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                                 <a href="{{ route('user.product.show',$apparel) }}" class="text-black">
                                     <img src="/storage/images/products/{{$apparel->image}}" class="md:w-full md:h-3/5 max-sm:w-40 max-sm:h-30 object-cover rounded-md">
-                                    <p class="truncate max-sm:text-xs">{{$apparel->name}}</p>
+                                    <p class="truncate max-sm:text-xs mt-3">{{$apparel->name}}</p>
                                     <p class="text-gray-500 truncate max-sm:text-xs">{{$apparel->info}}</p>
                                     <p class="truncate max-sm:text-xs">¥{{$apparel->price}}</p>
                                 </a>
