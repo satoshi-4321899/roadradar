@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="flex max-sm:justify-between">
-        <div class="md:w-1/6 max-md:w-2/5 px-2">
+        <div class="md:w-1/5 max-md:w-2/5 px-2">
             <h2 class="font-bold mt-5 max-sm:text-sm">商品カテゴリー</h2>
             <ul>
                 @foreach($categories as $category)
@@ -25,31 +25,33 @@
                     </li>
                 @endforeach
             </ul>
-            <h2 class="font-bold mt-7 max-sm:text-sm">価格別検索</h2>
-            <form action="{{ route('user.product.search') }}" method="GET">
-                @csrf
-                <div class="flex flex-col mt-2">
-                    <label for="category" class="max-sm:text-xs">カテゴリー</label>
-                    <select id="category" name="category" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
-                        @foreach($categories as $category)
-                            <option value="{{ $category->value }}">{{ $category->name }}</option>
-                        @endforeach
-                    </select>
-                </div>
-                <div class="flex flex-col mt-2 max-sm:text-xs">
-                    <label for="price">販売価格</label>
-                    <x-input-error :messages="$errors->get('price')"/>
-                    <input type="number" id="price-1" name="price-1" min="1" max="1000000" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
-                    円から
-                    <input type="number" id="price-2" name="price-2" min="1" max="1000000" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
-                    円まで
-                </div>
-                <div class="flex justify-center mt-2">
-                    <x-primary-button class="px-auto">
-                        検索
-                    </x-primary-button>
-                </div>
-            </form>
+            <div class="md:w-1/6">
+                <h2 class="font-bold mt-7 max-sm:text-sm">価格別検索</h2>
+                <form action="{{ route('user.product.search') }}" method="GET">
+                    @csrf
+                    <div class="flex flex-col mt-2">
+                        <label for="category" class="max-sm:text-xs">カテゴリー</label>
+                        <select id="category" name="category" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
+                            @foreach($categories as $category)
+                                <option value="{{ $category->value }}">{{ $category->name }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="flex flex-col mt-2 max-sm:text-xs">
+                        <label for="price">販売価格</label>
+                        <x-input-error :messages="$errors->get('price')"/>
+                        <input type="number" id="price-1" name="price-1" min="1" max="1000000" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
+                        円から
+                        <input type="number" id="price-2" name="price-2" min="1" max="1000000" class="w-auto py-2 border border-gray-300 rounded-md max-sm:py-1 max-sm:text-xs" required>
+                        円まで
+                    </div>
+                    <div class="flex justify-center mt-2">
+                        <x-primary-button class="px-auto">
+                            検索
+                        </x-primary-button>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="md:w-4/5 max-md:w-full sm:px-5 max-sm:px-3">
             <div class="mt-5">
