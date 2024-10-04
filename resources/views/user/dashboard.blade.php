@@ -67,7 +67,7 @@
                     @endforeach
                 </ul>
             </div>
-            <div class="mt-5 pb-8">
+            <div class="mt-5 mb-8">
                 <h2 class="font-bold sm:mb-3 ml-2 max-sm:text-sm">アパレル新商品</h2>
                 <ul class="md:grid md:grid-cols-5 md:grid-rows-2 md:gap-2 h-auto w-5/6">
                     @foreach($apparels as $index => $apparel)
