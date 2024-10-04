@@ -96,6 +96,6 @@
         </div>
     </div>
     <div class="flex justify-center">
-        <hr class="border mt-5 w-11/12">
+        <hr class="border pt-5 w-11/12">
     </div>
 </x-app-layout>
