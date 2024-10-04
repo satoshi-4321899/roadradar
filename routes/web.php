@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\user\ProfileController;
+use App\Http\Controllers\User\ProfileController;
 use App\Http\Controllers\Admin\AdminLoginController;
 use App\Http\Controllers\Admin\AdminRegisterController;
 use App\Http\Controllers\Admin\AdminProfileController;
