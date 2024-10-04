@@ -8,7 +8,7 @@
             @foreach($products as $product)
                 <li class="w-72 flex-grow p-2 mx-7 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                     <a href="{{ route('user.product.show',$product) }}" class="rounded-md text-black">
-                        <img src="/storage/images/products/{{$product->image}}" class="w-72 h-auto object-cover rounded-md">
+                        <img src="/storage/images/products/{{$product->image}}" class="w-72 h-64 object-cover rounded-md">
                         <p class="rounded-md text-black">{{$product->name}}</p>
                         <p class="rounded-md text-gray-400 truncate">{{$product->info}}</p>
                     </a>
