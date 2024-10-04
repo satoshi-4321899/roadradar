@@ -6,9 +6,9 @@
     @else
         <ul class="flex flex-wrap justify-around">
             @foreach($products as $product)
-                <li class="w-72 flex-grow p-2 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
+                <li class="w-64 flex-grow px-8 py-4 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                     <a href="{{ route('user.product.show',$product) }}" class="rounded-md text-black">
-                        <img src="/storage/images/products/{{$product->image}}" class="w-72 h-64 object-cover rounded-md">
+                        <img src="/storage/images/products/{{$product->image}}" class="w-64 h-64 object-cover rounded-md">
                         <p class="rounded-md text-black">{{$product->name}}</p>
                         <p class="rounded-md text-gray-400 truncate">{{$product->info}}</p>
                     </a>
@@ -24,11 +24,11 @@
 
             @if ($remainder3 > 0)
                 @for ($i = 0; $i < $columns3 - $remainder3; $i++)
-                    <li class="w-72 flex-grow p-8 invisible"></li>
+                    <li class="w-64 flex-grow p-8 invisible"></li>
                 @endfor
             @elseif ($remainder4 > 0)
                 @for ($i = 0; $i < $columns4 - $remainder4; $i++)
-                    <li class="w-72 flex-grow p-8 invisible"></li>
+                    <li class="w-64 flex-grow p-8 invisible"></li>
                 @endfor
             @endif
         </ul>
