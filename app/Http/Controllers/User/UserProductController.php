@@ -12,7 +12,7 @@ class UserProductController extends Controller
 {
     // トップページ
     public function index(){
-        $products = Product::where('category','bikes')->orderBy('created_at', 'desc')->take(6)->get();
+        $products = Product::where('category','bikes')->orderBy('created_at', 'desc')->take(8)->get();
         $apparels = Product::where('category','apparels')->orderBy('created_at', 'desc')->take(3)->get();
         $categories = ProductCategory::cases();
         $brands = Brand::all();
