@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="flex max-sm:justify-between">
-        <div class="md:w-1/5 max-md:w-2/5 px-2">
+        <div class="md:w-1/6 max-md:w-2/5 px-2">
             <h2 class="font-bold mt-5 max-sm:text-sm">商品カテゴリー</h2>
             <ul>
                 @foreach($categories as $category)
