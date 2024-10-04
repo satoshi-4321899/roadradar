@@ -69,7 +69,7 @@
             </div>
             <div class="mt-5">
                 <h2 class="font-bold sm:mb-3 ml-2 max-sm:text-sm">アパレル新商品</h2>
-                <ul class="md:grid md:grid-cols-5 md:grid-rows-2 md:gap-2 h-96">
+                <ul class="md:grid md:grid-cols-5 md:grid-rows-2 md:gap-2 h-96 w-96">
                     @foreach($apparels as $index => $apparel)
                         @if($index === 0)
                             <li class="max-sm:hidden md:col-span-3 md:row-span-2 md:w-128 max-md:w-40 pr-2 md:p-2 max-md:p-1 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
@@ -95,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center mt-12">
+    <div class="flex justify-center">
         <hr class="border w-11/12">
     </div>
 </x-app-layout>
