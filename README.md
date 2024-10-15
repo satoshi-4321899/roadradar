@@ -40,8 +40,18 @@
     ![welcome page](https://drive.google.com/uc?export=view&id=1Ax_Fm1dh-yTg8nyayPD655bJPeM2M_-y)
     ![welcome page](https://drive.google.com/uc?export=view&id=1dwxkaXb4m0SlLH01pdeaIYkrRe2-1BRs)
 
-- <p id="adminログイン方法">ログイン方法</p>
-- <p id="ブランド登録・編集">ブランド登録・編集</p>
+- ログイン方法<p id="adminログイン方法"></p>
+  - <a href="https://sy4964593027.xsrv.jp/admin" target="_blank">管理者用welcomeページ</a>のログインボタンからログインフォームへ遷移して各項目を入力し、ログインボタンを押下するとログイン完了です。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1Gkjb8T5Gk4YI_NC-V8JOQWabsENtUU9y)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1qKvC-iMEF6P8SsGo9YVwbh-4fm2EZUeE)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1n9dTPjwFwY7ZJWYA1yu6iCnX7nHCeYDN)
+    
+- ブランド登録・編集<p id="ブランド登録・編集"></p>
+  - ログイン後、ブランド登録ボタンから登録フォームへ遷移し、各項目を入力して登録ボタンを押下すると完了です。登録後はMYブランド一覧に追加されます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1yjNqLsWYUrTRjmvsjFHr1TiLw441zM9T)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1GOOVPrw5U2QnzsL2zkYxN9TFPdwaM8qI)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1D78OqZrIb4DIu3miZJkjU0dblD7LzFA1)
+    
 - <p id="商品登録・編集">商品登録・編集</p>
 - <p id="ブランド削除・商品削除">ブランド削除・商品削除</p>
 - <p id="MYブランド・ブランド一覧">MYブランド・ブランド一覧</p>
