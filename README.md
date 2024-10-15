@@ -109,5 +109,12 @@
     ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
   
 ## 使用した言語・ツール
-
-## 終わりに
+- PHP(Laravel11)
+- MySQL
+- JavaScript(Swiper.js)
+- Docker(開発環境)
+- Git&GitHub
+- Google Drive
+- Figma(デザイン作成)
+- Lucid(ER図作成)
+- XServer(デプロイ)
