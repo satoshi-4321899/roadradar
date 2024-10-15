@@ -36,7 +36,9 @@
 ## Admin
 - 登録方法<p id="admin登録方法"></p>
   - <a href="https://sy4964593027.xsrv.jp/admin" target="_blank">管理者用welcomeページ</a>の管理者登録ボタンから登録フォームへ遷移して各項目を入力し、登録ボタンを押下すると登録完了です。
-  1. ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1Ax_Fm1dh-yTg8nyayPD655bJPeM2M_-y)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1dwxkaXb4m0SlLH01pdeaIYkrRe2-1BRs)
 
 - <p id="adminログイン方法">ログイン方法</p>
 - <p id="ブランド登録・編集">ブランド登録・編集</p>
