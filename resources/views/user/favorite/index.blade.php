@@ -8,7 +8,7 @@
             @foreach($favorites as $favorite)
                 <li class="w-64 grow px-8 py-4 hover:bg-gray-200 rounded-md transition duration-300 ease-out hover:ease-in">
                     <a href="{{ route('user.product.show',$favorite->product) }}" class="rounded-md text-black">    
-                        <img src="/storage/images/products/{{$favorite->product->image}}" class="w-64 h-64 object-cover rounded-md">
+                        <img src="/storage/images/products/{{$favorite->product->image}}" class="w-full h-64 object-cover rounded-md">
                         <p class="rounded-md truncate">{{$favorite->product->name}}</p>
                         <p class="rounded-md text-gray-400 truncate">{{$favorite->product->info}}</p>
                     </a>
