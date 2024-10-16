@@ -8,7 +8,7 @@
                 @foreach ($order->orderItems as $orderItem)
                     <li class="mt-4 max-sm:mt-2 sm:flex">
                         <div>
-                            <img src="/storage/images/products/{{ $orderItem->product->image }}"  class="rounded-md w-40 h-40 object-cover">
+                            <img src="/storage/images/products/{{ $orderItem->product->image }}"  class="rounded-md w-56 h-40 object-cover">
                         </div>
                         <div class="sm:pl-3">
                             <a href="{{ route('user.product.show',$orderItem->product) }}" class="rounded-md text-black text-lg max-sm:text-md font-semibold">
