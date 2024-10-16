@@ -9,7 +9,6 @@
   - <a href="https://sy4964593027.xsrv.jp/" target="_blank">一般ユーザー・Freeユーザー用URL</a>
 
 ## 目次
-
 - [Admin](#admin)
   - [登録方法](#admin登録方法)
   - [ログイン方法](#adminログイン方法)
@@ -62,7 +61,7 @@
     ![top page](https://drive.google.com/uc?export=view&id=1le26kZfANfCADLjdOQF6uVvJqSz7gjaG)
 
 - 商品登録<p id="商品登録"></p>
-  - ブランド登録後、商品を追加したいブランド名を押下し遷移先のブランド詳細ページの商品登録ボタンを押下して各項目を入力して登録完了です。
+  - 商品を追加したいブランド名を押下し遷移先のブランド詳細ページの商品登録ボタンを押下して各項目を入力して登録完了です。
     ![top page](https://drive.google.com/uc?export=view&id=1DLFMqSxL01ko7Rj420vLqP7At32V5kE2)
     ![show brand](https://drive.google.com/uc?export=view&id=1LiqnCCSVPFd77ndIOBjZ9nD8cFrhwxg2)
     ![product register form](https://drive.google.com/uc?export=view&id=13frmgeqGmy8FJdv0pt7RfMJmLI07vcnm)
@@ -89,46 +88,81 @@
 
 ## User
 - 登録方法<p id="user登録方法"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - <a href="https://sy4964593027.xsrv.jp/" target="_blank">一般ユーザー用welcomeページ</a>の会員登録ボタンから登録フォームへ遷移して各項目を入力し、登録ボタンを押下すると入力したメールアドレス宛に認証メールが送付されます(届かない場合はリンクを再送して下さい)。認証メールのボタンをクリックすると登録完了です。
+    ![welcome page](https://drive.google.com/uc?export=view&id=166tdVtogpBzCxQT2YKWI15o1Ecw4E7EH)
+    ![register form](https://drive.google.com/uc?export=view&id=1DE5U1bCqYHZ_E4NhS9BNZrjSqtkRaamZ)
+    ![mail link](https://drive.google.com/uc?export=view&id=1rBq-LpvoYjeW31h5ZB9WU_RQfoVfslMJ)
+    ![mail content](https://drive.google.com/uc?export=view&id=1l8XrmX5_iBSAtDAK_isJycQ3-NHPmvtq)
+    ![top page](https://drive.google.com/uc?export=view&id=1cCfXATBH-QIP11ZHk2ddGFw7QXJlje5e)
+
 - ログイン方法<p id="userログイン方法"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - <a href="https://sy4964593027.xsrv.jp/" target="_blank">一般ユーザー用welcomeページ</a>のログインボタンからログインフォームへ遷移して各項目を入力し、ログインボタンを押下するとログイン完了です。
+    ![welcome page](https://drive.google.com/uc?export=view&id=17BZl1JEqiDwGjAF-E11UzI5KOOWURoij)
+    ![login form](https://drive.google.com/uc?export=view&id=1-eoYNb0yj6C4kS8lUvFQw0RnYM4Zc5wL)
+    ![top page](https://drive.google.com/uc?export=view&id=1cCfXATBH-QIP11ZHk2ddGFw7QXJlje5e)
+
 - お気に入り登録<p id="お気に入り登録"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - ログイン後、任意の商品から商品詳細ページのお気に入り登録ボタンを押下すると登録完了です。登録後はお気に入り一覧に商品が追加されます。※お気に入りの解除は解除ボタンから行えます
+    ![welcome page](https://drive.google.com/uc?export=view&id=1NlLFwf1NxQ_0iQljyXSybbtgN_CBsx_v)
+    ![show product](https://drive.google.com/uc?export=view&id=1GBzIhH-hlZou-xQEmYsL-1x5QKpYQ-Re)
+    ![favorite registered](https://drive.google.com/uc?export=view&id=1VlGVr3lMMknVYAKFUdF8qSMLnvebvchD)
+    ![favorite index](https://drive.google.com/uc?export=view&id=1VuVg9sciPCEP63NwvIIwPgdat6HFfKhW)
+
 - カート追加・商品購入<p id="カート追加・商品購入"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - 商品詳細ページの個数を入力し、カートに追加ボタンを押下すると追加完了です。メニューのカートからショッピングカートへ遷移し注文手続きボタンを押下し情報を入力して注文を確定されると購入完了です。確定後は入力したメールアドレス宛に注文内容が送付されます。
+    ![show product](https://drive.google.com/uc?export=view&id=1h95UfbOK1e9eVTBdDcZ4h5NpVEHVk1pF)
+    ![cart added](https://drive.google.com/uc?export=view&id=15nfHfTWovyWPPwL--kjF8sbxPI_sEqyM)
+    ![cart show](https://drive.google.com/uc?export=view&id=11ouiyPOxFa8doFHqSzuBaVNsZCf0mb6P)
+    ![order info](https://drive.google.com/uc?export=view&id=1Q0UjigH2lUcP0i06Mv1IH6e7fr_ejHow)
+    ![order detail](https://drive.google.com/uc?export=view&id=1dXs5DaRVobgLCfHW3YUvFlBB_PEHXlMD)
+    ![mail order](https://drive.google.com/uc?export=view&id=15CnMj2RxqmPkGPFh2SNUFRYY7acto3j5)
+
 - 注文履歴<p id="注文履歴"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - 商品注文後、メニューの注文履歴を押下すると注文した日時・商品・金額などが表示されます。
+    ![order show](https://drive.google.com/uc?export=view&id=1xyFPd6DlSzT4jBvDXPbFbQmQTroWj_7v)
+    ![order index](https://drive.google.com/uc?export=view&id=1S2GSLS9R3Eoc6-BIzwWlO9eltIJWOYGD)
+
 - 関連する商品<p id="関連する商品"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - 商品詳細ページに同じカテゴリーの商品がランダムに表示されます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1bTnp47uxNrFj_v_tGBoziDwZ9aeoYGbu)
+    ![welcome page](https://drive.google.com/uc?export=view&id=11sTDaNAa8HuRItnbSVXRxwgCgJ_-FuuJ)
+
 - コメント機能<p id="コメント機能"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - 商品詳細ページ下部のフォームにコメントを入力しボタンを押下するとコメントを追加できます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=13BHQZ8tgbQZ5_Jpug09YeM5yDu_LtsYc)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1vv6hBzgk5MIF6Zgyo1-xYfFNEnTZVc3J)
+
 - 商品カテゴリー<p id="商品カテゴリー"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - トップページのサイドメニューから各カテゴリーごとの商品一覧を表示できます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1BjU8_QnA-xVPzT4yy5zJaHDDZaIe3zwS)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1Z5DvVlNv_kC6dgxJrz3g94gGmIpZcZjb)
+
 - ブランド一覧<p id="ブランド一覧"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - トップページのサイドメニューから各ブランドごとの商品一覧を表示できます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1KfUvvnLCpInFDHyvpcI2opYom2itR4n7)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1HqsEvIBiTKh2dYn6kcUxKQe8nSZXBB7d)
+
 - 価格帯検索<p id="価格帯検索"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - トップページのサイドメニューからカテゴリー・価格別の商品一覧を検索できます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1FMp9oYW7bFicqo2acIvMEP8s6sJWpHm3)
+    ![welcome page](https://drive.google.com/uc?export=view&id=17d6SKLBn2QkeTZkDhaHfJU06wn7zfXLG)
+
 - アカウント編集・パスワード編集<p id="userアカウント編集・パスワード編集"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - 右上のユーザー名からアカウントを押下すると、アカウント情報、パスワードを編集できます。アカウントを削除したい場合はページ一番下の削除ボタンを押下します。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1IpJppw5LJ2Q5rAhJrV2hpg7_lKG3UNWW)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1-yEAzv2Y87pH0BAa7NRgs3zdxU8RUq-Y)
 
 ## Free
 - 商品閲覧<p id="商品閲覧"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - <a href="https://sy4964593027.xsrv.jp/" target="_blank">一般ユーザー用welcomeページ</a>の未登録で商品を閲覧するからFreeユーザー用のトップページへ遷移できます。カテゴリー・ブランド・価格検索が可能です。お気に入り登録・カート追加・コメント追加などの機能はありません。welcomeページの下部ではカテゴリーごとの新商品をカルーセルで閲覧できます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=1a4nsUYAvhzAfGht2XA6QGPTZozwBcbfL)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1vRNV2o2bgIZxvOh6o-t1f-3sTVlt8gBe)
+
 - お問い合わせ<p id="お問い合わせ"></p>
-  - text
-    ![welcome page](https://drive.google.com/uc?export=view&id=1wq02QOgELhjeazzKQM_nZffQ2eitCnzX)
+  - <a href="https://sy4964593027.xsrv.jp/" target="_blank">一般ユーザー用welcomeページ</a>のお問い合わせから情報を入力し送信するとお問い合わせ内容が入力したメールアドレス宛に送信されます。
+    ![welcome page](https://drive.google.com/uc?export=view&id=147z_0zZgycECin8u09YSEFWDYy4XVfcc)
+    ![welcome page](https://drive.google.com/uc?export=view&id=1aGCCgEuP5B7G6F28aEEjoZZqMvWaL-xQ)
+    ![welcome page](https://drive.google.com/uc?export=view&id=17z8GYK72dnKnSOKe7f9_YtnvJMmD21sl)
   
 ## 使用した言語・ツール
 - PHP(Laravel11)
