@@ -172,5 +172,5 @@
 - Git&GitHub
 - Google Drive
 - Figma(デザイン作成)
-- Lucid(ER図作成)
+- <a href="https://lucid.app/lucidchart/0698e30d-0dd2-4437-9993-f9959467f707/edit?viewport_loc=-2300%2C-1346%2C2065%2C1017%2C0_0&invitationId=inv_f0d4ab34-b246-4a2d-b944-7a3114cbf692" target="_blank">Lucid(ER図作成)</a>
 - XServer(デプロイ)
