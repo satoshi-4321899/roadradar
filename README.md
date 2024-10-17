@@ -33,7 +33,7 @@
 - [Free](#free)
   - [商品閲覧](#商品閲覧)
   - [お問い合わせ](#お問い合わせ)
-- [使用した言語、ツール、開発環境](#使用した言語、ツール、開発環境)
+- [開発言語・開発環境・ツール](#開発言語・開発環境・ツール)
 
 ## Admin
 - 登録方法<p id="admin登録方法"></p>
@@ -164,7 +164,7 @@
     ![welcome page](https://drive.google.com/uc?export=view&id=1aGCCgEuP5B7G6F28aEEjoZZqMvWaL-xQ)
     ![welcome page](https://drive.google.com/uc?export=view&id=17z8GYK72dnKnSOKe7f9_YtnvJMmD21sl)
   
-## 使用した言語、ツール、開発環境
+## 開発言語・開発環境・ツール
 - PHP(Laravel11)
 - MySQL
 - JavaScript(Swiper.js)
