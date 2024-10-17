@@ -17,7 +17,7 @@
   - [商品登録](#商品登録)
   - [商品編集](#商品編集)
   - [ブランド削除・商品削除](#ブランド削除・商品削除)
-  - [アカウント編集](#adminアカウント編集)
+  - [アカウント編集・パスワード編集](#adminアカウント編集・パスワード編集)
 - [User](#user)
   - [登録方法](#user登録方法)
   - [ログイン方法](#userログイン方法)
@@ -81,7 +81,7 @@
     ![top page](https://drive.google.com/uc?export=view&id=12F4bHbj_pyPA1WIRoPNjVFJ9j2bSpapw)
     ![brand deleted](https://drive.google.com/uc?export=view&id=1EVWQOsRxhU18RxEG8zFyC-o0Xhc4TD5f)
 
-- アカウント編集<p id="adminアカウント編集"></p>
+- アカウント編集・パスワード編集<p id="adminアカウント編集・パスワード編集"></p>
   - 右上のユーザー名からアカウントを押下すると、アカウント情報、パスワードを編集できます。アカウントを削除したい場合はページ一番下の削除ボタンを押下します。
     ![top page](https://drive.google.com/uc?export=view&id=1-KRcpEIRaLZIvMDcQoSB7CZoQmuOK1UI)
     ![account update](https://drive.google.com/uc?export=view&id=1KjijaUgqPsTVKUxjnAy7JBbJVLhg4Hct)
